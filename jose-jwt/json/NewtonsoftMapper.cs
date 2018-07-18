@@ -1,4 +1,3 @@
-﻿#if NETSTANDARD1_4
 using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
@@ -47,4 +46,3 @@ namespace Jose
         }
     }
 }
-#endif

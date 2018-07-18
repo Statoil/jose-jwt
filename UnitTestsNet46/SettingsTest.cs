@@ -279,7 +279,7 @@ namespace UnitTests
 
         #region mocks
 
-        class MockJsonMapper : JSSerializerMapper, IJsonMapper
+        class MockJsonMapper : NewtonsoftMapper, IJsonMapper
         {
             public bool SerializeCalled { get; set; }
             public bool ParseCalled { get; set; }

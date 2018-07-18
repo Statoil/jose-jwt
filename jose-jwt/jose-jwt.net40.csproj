@@ -49,7 +49,6 @@
     <Compile Include="crypto\RsaOaep.cs" />
     <Compile Include="crypto\RsaPss.cs" />
     <Compile Include="json\IJsonMapper.cs" />
-    <Compile Include="json\JSSerializerMapper.cs" />
     <Compile Include="json\NewtonsoftMapper.cs" />
     <Compile Include="jwa\AesGcmKeyWrapManagement.cs" />
     <Compile Include="jwa\AesKeyWrapManagement.cs" />
