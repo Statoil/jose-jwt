@@ -25,9 +25,9 @@ namespace Jose
                 { JwsAlgorithm.PS384, new RsaPssUsingSha(48) },
                 { JwsAlgorithm.PS512, new RsaPssUsingSha(64) },
 #if NET40 || NET461
-                { JwsAlgorithm.ES256, new EcdsaUsingSha(256) },
-                { JwsAlgorithm.ES384, new EcdsaUsingSha(384) },
-                { JwsAlgorithm.ES512, new EcdsaUsingSha(521) }
+                //{ JwsAlgorithm.ES256, new EcdsaUsingSha(256) },
+                //{ JwsAlgorithm.ES384, new EcdsaUsingSha(384) },
+                //{ JwsAlgorithm.ES512, new EcdsaUsingSha(521) }
 #elif NETSTANDARD1_4
                 { JwsAlgorithm.ES256, new Jose.netstandard1_4.EcdsaUsingSha(256) },
                 { JwsAlgorithm.ES384, new Jose.netstandard1_4.EcdsaUsingSha(384) },
